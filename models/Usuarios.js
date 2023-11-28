@@ -30,12 +30,6 @@ const UsuariosSchema=mongoose.Schema({
         type:Date,
         default:Date.now()
     },
-    // vendedor:{
-    //     type:mongoose.Schema.Types.ObjectID,
-    //     required:true,
-    //     ref:'Usuario'
-
-    // }
 
 });
 
